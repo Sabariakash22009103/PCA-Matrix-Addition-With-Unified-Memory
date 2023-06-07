@@ -11,7 +11,7 @@ To perform Matrix Addition with Unified Memory and to identify whether removing 
 5. Copy matrix result from unified memory to CPU memory using cudaMemcpy() function with cudaMemcpyDeviceToHost as a direction parameter.
 6. Free memory allocated with cudaFree() function.
 
-#Program:
+# Program:
 sumMatrixGPUManaged.cu:
 ```
 #include "common.h"
